@@ -848,7 +848,7 @@ static int TW68_g_fmt_vid_cap(struct file *file, void *priv,
 	f->fmt.pix.colorspace = V4L2_COLORSPACE_SMPTE170M;
 	f->fmt.pix.priv = 0;
 
-	printk(KERN_INFO " _g_fmt_vid_cap: width %d  height %d\n", f->fmt.pix.width, f->fmt.pix.height);
+	//printk(KERN_INFO " _g_fmt_vid_cap: width %d  height %d\n", f->fmt.pix.width, f->fmt.pix.height);
 
 	return 0;
 }
